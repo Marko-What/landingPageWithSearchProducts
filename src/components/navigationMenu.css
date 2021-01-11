@@ -1,0 +1,35 @@
+#NavigationMenu {
+	background-color:red;
+	height:100px;
+	top:0px;
+	transition: height 0.9s;
+	z-index: 9;
+	position:fixed;
+	width: 100%;
+}
+
+button {
+	position:absolute;
+	right:5px;
+	top:5px;
+	
+}
+
+.display {
+	display:block;
+	height:100px;
+}
+
+.displayNone {
+	display:none;
+}
+
+/*
+.NavigationMenuOpen {
+	height:auto!important;
+}
+*/
+.NavigationMenuClose {
+	height:100vh!important;
+	
+}

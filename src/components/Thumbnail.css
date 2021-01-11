@@ -1,0 +1,37 @@
+.WrapperDummyProducts {
+  display: flex;flex-wrap: wrap;
+  justify-content: center;
+/*margin-top: -5%;
+  margin-left: -5%;
+margin-right: -5%;*/
+margin-bottom: 100px;
+}
+
+.thumbnail {
+   
+   margin: 0.5rem;
+border: 2px solid #5298d5;
+padding: 5px;
+width: calc(22%);
+height: 275px;
+}
+
+.scrollDoown{
+bottom:0px;
+border:2px solid red;
+height:20px;
+width:100%;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .WrapperDummyProducts {
+    flex-direction: column;
+    /* margin: 10px auto;*/
+  }
+  .thumbnail {
+	margin-left: 10%;
+	margin-right: 10%;
+	width: calc(80%);
+}
+}
